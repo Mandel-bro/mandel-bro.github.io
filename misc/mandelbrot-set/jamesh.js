@@ -43,7 +43,7 @@ var Mandelbrot = function (canvas, n_workers) {
 
     this.workers = [];
     for (var i = 0; i < n_workers; i++) {
-        var worker = new Worker("worker.js");
+        var worker = new Worker("/misc/mandelbrot-set/jamesh-worker.js");
         worker.onmessage = function(event) {
                 self.received_row(event.target, event.data)
         }
