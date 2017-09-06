@@ -4,8 +4,12 @@ Resources:
 * http://progur.com/2017/02/create-mandelbrot-fractal-javascript.html
 * https://github.com/agm1984/mandelbrot/blob/master/mandelbrot.html
 * https://blogs.gnome.org/jamesh/2011/03/08/javascript-fractal/
+* https://github.com/calvinmetcalf/leaflet-fractal
+* https://csl.name/post/mandelbrot-rendering/
+* https://github.com/cslarsen/mandelbrot-js
 
-Create customizable js project. For a flight experience. Open-source it.
+Create customizable js project. For a flight experience. Use WebWorkers.
+Open-source it.
 
 ## Identity
 
