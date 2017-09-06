@@ -3,7 +3,9 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    color: FFF;
+    color: #FFF;
+    /* https://www.behance.net/gallery/28579883/Cormorant-an-open-source-display-font-family */
+    font-family: 'Cormorant Garamond', serif;
 }
 
 canvas.background {
@@ -19,6 +21,7 @@ canvas.background {
 /* Grid */
 /* TODO Read https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout */
 /* Read https://rachelandrew.co.uk/archives/2017/07/01/you-do-not-need-a-css-grid-based-grid-system/ */
+/* https://la-cascade.io/css-grid-layout-guide-complet/ */
 /* Do a Bootstrap-like grid, responsive?, using CSS Grid. */
 /* Use http://getskeleton.com/? */
 /* TODO container, row, col 1/12 */
@@ -26,13 +29,9 @@ canvas.background {
 .grid.container {
     display: grid;
     grid-template-columns: 10vw auto 10vw;
-    /*grid-template-columns: repeat(12, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);*/
 }
 .grid.container .row {
     grid-column: 2 / 3;
-
 }
 
 .about {

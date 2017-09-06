@@ -1,7 +1,30 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
     <title>Mandelbro: Making Software in Chaos</title>
+    <meta name="description" content="Mandelbro is group of people creating products with software.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" integrity="sha256-HxaKz5E/eBbvhGMNwhWRPrAR9i/lG1JeT4mD6hCQ7s4=" crossorigin="anonymous" />
     <link rel="stylesheet" href="/assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,600,700" rel="stylesheet">
+</head>
+<body>
+    <!--[if lte IE 9]>
+        <p class="browserupgrade">Please <a href="https://browsehappy.com/">upgrade your browser</a>.</p>
+    <![endif]-->
+    <canvas id="mandelbro-set" class="background" width="800" height="600"></canvas>
+    <div class="grid container">
+        <article class="about row">
+            <h1>Mandelbro is group of people creating products with software.</h1>
+            <p>
+                It is not enough to say that every detail count. How to consider
+                each detail? Is each detail itself
+            </p>
+        </article>
+    </div>
+
     <script type="text/javascript" src="/misc/mandelbrot-set/jamesh.js"></script>
     <script type="text/javascript">
     window.addEventListener("load", function (event) {
@@ -11,15 +34,5 @@
         mandelbrot.resize_to_parent();
     }, false);
     </script>
-</head>
-<body>
-    <canvas id="mandelbro-set" class="background" width="800" height="600"></canvas>
-    <div class="grid container">
-        <article class="about row">
-            <h1>Mandelbro is group of people creating products with software.</h1>
-            <p>
-            </p>
-        </article>
-    </div>
 </body>
 </html>
