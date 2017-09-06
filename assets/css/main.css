@@ -1,0 +1,40 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: FFF;
+}
+
+canvas.background {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -42;
+}
+
+/* Grid */
+/* TODO Read https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout */
+/* Read https://rachelandrew.co.uk/archives/2017/07/01/you-do-not-need-a-css-grid-based-grid-system/ */
+/* Do a Bootstrap-like grid, responsive?, using CSS Grid. */
+/* Use http://getskeleton.com/? */
+/* TODO container, row, col 1/12 */
+/* Polyfill or oups? https://github.com/FremyCompany/css-grid-polyfill ? */
+.grid.container {
+    display: grid;
+    grid-template-columns: 10vw auto 10vw;
+    /*grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);*/
+}
+.grid.container .row {
+    grid-column: 2 / 3;
+
+}
+
+.about {
+    text-align: center;
+}

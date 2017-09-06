@@ -1,25 +1,25 @@
 <html>
 <head>
-    <title>Mandelbrot Set</title>
-    <style type="text/css">
-    html, body {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 0px;
-    }
-    </style>
+    <title>Mandelbro: Making Software in Chaos</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
     <script type="text/javascript" src="/misc/mandelbrot-set/jamesh.js"></script>
     <script type="text/javascript">
     window.addEventListener("load", function (event) {
-        var canvas = document.getElementById("fractal")
-        mandelbrot = new Mandelbrot(canvas, 12);
+        const canvas = document.getElementById("mandelbro-set");
+        const mandelbrot = new Mandelbrot(canvas, 12);
         // This will resize the canvas and kick off the initial redraw.
         mandelbrot.resize_to_parent();
     }, false);
     </script>
 </head>
 <body>
-    <canvas id="fractal" width="800" height="600"></canvas>
+    <canvas id="mandelbro-set" class="background" width="800" height="600"></canvas>
+    <div class="grid container">
+        <article class="about row">
+            <h1>Mandelbro is group of people creating products with software.</h1>
+            <p>
+            </p>
+        </article>
+    </div>
 </body>
 </html>
