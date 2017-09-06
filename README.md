@@ -1,2 +1,3 @@
-# mandel-bro.github.io
-Take-off
+# mandelbro.com
+
+Take-off page.
