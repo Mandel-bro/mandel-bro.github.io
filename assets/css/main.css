@@ -15,9 +15,10 @@ html {
 body {
     /* currently ems cause chrome bug misinterpreting rems on body element */
     font-size: 2.0em;
-    line-height: 1.6;
-    font-weight: 400;
-    color: #FFF;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #bbd4d4;
+    font-variant: petite-caps;
     /* https://www.behance.net/gallery/28579883/Cormorant-an-open-source-display-font-family */
     font-family: 'Cormorant Garamond', serif;
 }
@@ -63,8 +64,17 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
     grid-column: 2 / 3;
 }
 
-.about {
+.about, .contact {
     text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: rgba(48, 37, 70, 0.7);
+}
+
+.contact .contact-email {
+    font-size: 0.8em;
+    font-variant: normal;
 }
 
 /* Canvas
