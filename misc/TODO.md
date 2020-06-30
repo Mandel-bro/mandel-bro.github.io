@@ -15,6 +15,10 @@ Open-source it.
 
 * Create a logo
 * Write the intro
+    * consulting
+        * accompagnement création produit
+        * automatisation / num. processus
+        * informatique sobre & fonctionnelle
 
 ## Sysadmin.
 
